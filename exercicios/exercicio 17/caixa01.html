@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            /* nessa ordem,border-width: 10px;
+                           border-style: solid;
+                           border-color: darkgray; */
+
+            border: 10px solid darkgray;
+            
+           /*ordem  padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px; */  
+
+            /*Se for todas as medidas iguais basta
+            colocar uma vez, ou se duas medidas forem iguais e as outra 2 tambem e forem iguais em cima e baixo e direita esquerda coloque primeiro a B  e C e depois D e E*/
+
+            padding: 10px 20px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; para 
+            centralizar bote a medida de baixo
+            e cima normal e direita esquerda auto */
+
+            margin: 20px auto 40px auto;
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aqua; */
+
+            outline: 5px dashed aqua;
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-align: center;
+        
+
+        }
+
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>Tambem são exemplos de box level paragrafos, mas os <a href="#">links são exemplos de inline level</a> vamos ver como isso tudo funciona</p>
+</body>
+</html>
